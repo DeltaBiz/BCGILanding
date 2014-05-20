@@ -1,0 +1,35 @@
+body {
+  padding-top: 2px;
+  padding-bottom: 20px;
+}
+.jumbotron {
+	background:#0068b3 url('../img/youcantafford.png') no-repeat bottom left;	
+	padding: 14px 0 9px 0;
+	margin-bottom: 10px;
+}
+* {
+ font-family: 'Lato', sans-serif;
+}
+#logo { width: 300px; margin: 0 auto;}
+#logo h1 { text-indent: -5000px; background: url('../img/BCGI_logo.png') no-repeat; width: 277px; height: 91px;}
+#logo h6 {color: #455560; font-size: 23px;}
+h2,h3 {color:#fff; font-weight: bold;}
+h2 { font-size: 45px; letter-spacing: 6px;text-transform: uppercase; width: 980px;  margin-top: 0;text-shadow: 4px 4px 38px rgba(88, 88, 90, 1);}
+h3{ font-size: 30px; width: 980px; letter-spacing: 5px; }
+h4 { font-size: 20px; line-height: 34px; padding: 15px}
+h4 strong { font-weight: bold; text-transform: uppercase; font-size: 27px;}
+a.btn { font-size: 18px;}
+iframe { width: 480px; height: 360px; border: 14px solid #58585a; border-radius: 6px;}
+.jumbotron img { width:50px; float: right;}
+label {width:200px; text-align: right;}
+@media (min-width: 768px) {
+	iframe { width: 640px; height: 480px;}
+	.jumbotron img { width:100px;}
+}
+@media (min-width: 992px) {
+	iframe { width: 785px; height: 555px;}	
+	.jumbotron img { width:170px;}
+	.container {width:1024px;}
+}
+
+footer { padding-left: 20%;}
